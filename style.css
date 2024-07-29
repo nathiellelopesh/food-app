@@ -1,0 +1,187 @@
+:root {
+    --text-black: #252B42;
+    --text-family-primary: "Montserrat", sans-serif;
+    --text-family-secondary: "Poppins", sans-serif;
+    --text-color-focus: #FA4A0C;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    font-family: var(--text-family-primary);
+}
+
+header img {
+    height: 80px;
+}
+
+.nav-items {
+    margin: 0 45px;
+    text-decoration: none;
+    color: var(--text-black);
+    font-weight: 500;
+}
+
+#home {
+    height: 85vh;
+    background-image: url(img/Rectangle-foodiehero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+#home-text {
+    padding: 60px;
+}
+
+#home h3 {
+    font-size: 24px;
+    padding-bottom: 20px;
+    font-family: var(--text-family-primary);
+    font-weight: bold;
+}
+
+#home h1 {
+    font-size: 60px;
+    padding: 0 200px;
+    font-family: var(--text-family-secondary);
+    font-weight: bold;
+}
+
+#home p {
+    font-family: var(--text-family-primary);
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+.home-button {
+    padding: 15px 35px;
+    font-family: var(--text-family-primary);
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #fff;
+    border: solid #FA4A0C 2px;
+    border-radius: 25px;
+    margin: 0 10px;
+    background-color: #FA4A0C;
+}
+
+
+button:hover {
+    cursor: pointer;
+}
+
+#button-transparent {
+    background: transparent;
+    border: solid white 2px;
+}
+
+#phones {
+    position: absolute;
+    top: 125%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+}
+
+h2 {
+    font-family: var(--text-family-secondary);
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+}
+
+#app {
+    margin-top: 37rem;
+    text-align: center;
+}
+
+.app-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem 8rem;
+    position: relative;
+}
+
+.app-img {
+    z-index: 1;
+}
+
+.app-description {
+    text-align: start;
+    width: 40vw;
+    font-family: var(--text-family-primary);
+}
+
+.app-description h3 {
+    color: var(--text-color-focus);
+    padding-bottom: 1rem;
+}
+
+.app-description p {
+    color: #737373;
+    font-size: 1.25rem;
+    padding-right: 10rem;
+    padding-top: 1rem;
+}
+
+#line-decoration {
+    border-bottom: 2px solid #E4E4E4; /* Cor da linha cinza */
+    position: absolute;
+    right: 23rem;
+    width: 60vw;
+}
+
+.app-description h2 {
+    padding-right: 3rem;
+}
+
+.download-app {
+    background-image: url(./img/Rectangle-download.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #E4E4E4;
+    font-family: var(--text-family-primary);
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.download-app h4 {
+    padding-bottom: 3.5rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.download-app button {
+    border-radius: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 25vh;
+    font-family: var(--text-family-secondary);
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media img {
+    padding: 0 0.5rem;
+    cursor: pointer;
+}
+
